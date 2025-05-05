@@ -1,0 +1,212 @@
+!25
+'v_L0
+'v_R0
+'v_L1
+'v_R1
+'hasneighbor
+'init
+'value
+'hasneigh
+'accum
+'res
+'step
+'info
+'neighbors
+'map
+'math
+'abs
+'azimuth
+'pi
+'distance
+'result
+'reduce
+'log
+'set_wheels
+'reset
+'destroy
+
+	pushs 5
+	pushcn @__label_1
+	gstore
+	pushs 10
+	pushcn @__label_2
+	gstore
+	pushs 23
+	pushcn @__label_9
+	gstore
+	pushs 24
+	pushcn @__label_10
+	gstore
+	nop
+
+@__label_0
+	pushs 0	|11,5,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushf 9.	|11,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|12,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 1	|12,5,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushf 1.	|12,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|15,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 2	|15,5,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushf 3.	|15,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|16,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 3	|16,5,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushf 9.	|16,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|18,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 4	|18,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|18,14,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|23,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__exitpoint	|0,1,(null)
+	done	|0,1,(null)
+
+@__label_1
+	pushs 4	|24,13,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|24,15,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|25,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 6	|25,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pusht	|25,11,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|25,11,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 7	|25,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|25,23,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|25,25,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|26,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 8	|26,6,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pusht	|26,10,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|26,10,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|26,11,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|26,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|26,18,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|27,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret0	|33,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__label_2
+	pushs 11	|44,5,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 12	|44,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|44,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|44,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 13	|44,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|44,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushl @__label_3	|45,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 1	|54,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|54,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|54,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 19	|54,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 11	|54,13,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|54,13,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|54,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 20	|54,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|54,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushl @__label_6	|54,21,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pusht	|57,6,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|57,6,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|57,7,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|57,13,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|57,14,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 2	|58,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|58,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|58,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushnil	|58,3,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 21	|58,3,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|58,3,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 19	|58,10,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|58,10,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|58,14,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|58,14,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 1	|60,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|60,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pop	|60,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 19	|60,11,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|60,11,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|60,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|60,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 1	|60,19,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gte	|60,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	jumpz @__label_7	|60,21,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushnil	|62,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 22	|62,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|62,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 2	|62,17,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|62,17,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 3	|62,23,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|62,23,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 2	|63,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|63,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pop	|63,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	jump @__label_8	|63,8,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+@__label_7	|63,8,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushnil	|65,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 22	|65,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|65,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 0	|65,17,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|65,17,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 1	|65,23,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|65,23,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 2	|66,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|66,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pop	|66,1,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+@__label_8	|68,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret0	|75,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__label_3
+	pushs 6	|46,8,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pusht	|46,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|46,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 7	|46,13,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 0	|46,24,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|46,26,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gstore	|48,4,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 14	|48,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|48,12,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	dup	|48,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 15	|48,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|48,16,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lload 2	|48,21,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 16	|48,29,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|48,29,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 1	|48,31,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	callc	|48,31,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 14	|48,39,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|48,39,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 17	|48,42,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|48,42,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 24	|48,43,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	div	|48,45,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lte	|48,46,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lload 2	|48,57,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 18	|48,67,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|48,67,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 2000	|48,69,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lte	|48,73,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	land	|48,74,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	jumpz @__label_4	|48,75,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 6	|50,8,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|50,8,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 7	|50,18,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushi 1	|50,20,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|51,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+@__label_4	|52,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 6	|53,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	gload	|53,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret1	|53,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret0	|53,3,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__label_6
+	lload 3	|55,9,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|55,14,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lload 3	|55,21,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 9	|55,26,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|55,26,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lload 2	|55,32,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	pushs 7	|56,4,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tget	|56,4,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	add	|56,4,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	tput	|56,4,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	lload 3	|57,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret1	|57,2,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+	ret0	|57,3,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__label_9
+	ret0	|83,0,/home/alex/WPI_SwarmIntelligence/swarm_final/circle_test.bzz
+
+@__label_10
+	ret0	|0,1,(null)

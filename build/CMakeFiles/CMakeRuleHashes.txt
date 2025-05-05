@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+891bf2f078acf4cbf5ec04cf563fd84e CMakeFiles/circle_test.bzz
+d265d51bc57b712446d0697483d39c64 CMakeFiles/collect_data_autogen
+cad393b0738ab6a3f74837c4c6befab5 circle_test.bo
